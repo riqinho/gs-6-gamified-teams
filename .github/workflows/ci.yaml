@@ -1,1 +1,13 @@
 name: Continuous Integration
+
+jobs:
+  demo1:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: step1
+        run: echo "Olá, mundo"
+      - name: step2
+        run: |
+          echo "Mensagem 2"
+          echo "Mensagem 3"
+          ls -la
