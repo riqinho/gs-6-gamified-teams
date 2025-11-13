@@ -1,5 +1,5 @@
 services:
   gs_6_gamified_teams:
-    image: riqinho/gs_6_gamified_teams:0.0.1
+    image: riqinho/gs_6_gamified_teams:latest
     ports:
       - 8081:8081
