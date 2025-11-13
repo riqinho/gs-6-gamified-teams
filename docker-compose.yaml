@@ -3,8 +3,3 @@ services:
     image: riqinho/gs_6_gamified_teams:0.0.1
     ports:
       - 8081:8081
-    networks:
-      - app-networks
-
-networks:
-  app-networks:
