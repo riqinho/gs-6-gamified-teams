@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.0](https://github.com/riqinho/gs-6-gamified-teams/compare/v1.1.0...v1.2.0) (2025-11-13)
+
+
+### Features
+
+* testando ci na branch feature ([1fa38e0](https://github.com/riqinho/gs-6-gamified-teams/commit/1fa38e0231cfc105fcf3d5ff657c2d1f75cffdac))
+
+
+### Bug Fixes
+
+* cd file ([f34fc3f](https://github.com/riqinho/gs-6-gamified-teams/commit/f34fc3ffab683e9933f85a6dbcd117e9e9fcc94a))
+* cd file ([f2a0490](https://github.com/riqinho/gs-6-gamified-teams/commit/f2a0490b9126869c2ea77e2369ac4aafe3c2f75d))
+
 ## [1.1.0](https://github.com/riqinho/gs-6-gamified-teams/compare/v1.0.0...v1.1.0) (2025-11-13)
 
 
