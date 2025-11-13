@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/riqinho/gs-6-gamified-teams/compare/v1.0.0...v1.1.0) (2025-11-13)
+
+
+### Features
+
+* testando versioning na main ([ba8e865](https://github.com/riqinho/gs-6-gamified-teams/commit/ba8e865f914819f442b8fa206d2fa827b01c01cc))
+
 ## 1.0.0 (2025-11-13)
 
 
