@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>br.com.fiap</groupId>
 	<artifactId>gs_6_gamified_teams</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>gs_6_gamified_teams</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
