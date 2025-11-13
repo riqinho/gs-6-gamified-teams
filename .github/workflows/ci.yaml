@@ -3,19 +3,22 @@ name: Continuous Integration
 on:
   push:
     branches:
-      - develop
       - feature/**
+      - release
       - hotfix
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
-        steps: 
-            - name: Checkout
-              uses: actions/checkout@v5
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
 
-            - name: Build da Aplicacao
-              run: mvn clean package -DskipTests
-              
-            - name: Execução de Testes Unitários
-              run: mvn test
+      - name: Build da Aplicacao
+        run: mvn clean package -DskipTests
+
+      - name: Execução de Testes Unitários
+        run: mvn test
+
+      - name: Teste da Criacao da imagem
+        run: docker build -t gs_6_gamified_teams .
